@@ -158,6 +158,13 @@ img{max-width:100%;display:block;}
   margin:0 0 40px;text-align:center;
 }
 
+/* About */
+.about-inner{max-width:720px;}
+.about-text p{
+  margin:0 0 18px;color:var(--text);font-size:1rem;line-height:1.75;opacity:.92;
+}
+.about-text p:last-child{margin-bottom:0;}
+
 /* Skills */
 .skills-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;}
 .skill-card{
