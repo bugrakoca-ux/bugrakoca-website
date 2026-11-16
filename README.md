@@ -20,7 +20,7 @@ assets/
 python -m http.server 8080
 ```
 
-## GitHub Pages ile yayınlama (özel domain YOK)
+## GitHub Pages ile yayınlama
 
 1. GitHub'da yeni, boş bir repo oluştur (README/license eklemeden): `bugrakoca-website` gibi bir isim öner.
 2. Bu klasörü o repoya push et:
@@ -38,7 +38,7 @@ python -m http.server 8080
 6. Birkaç dakika içinde site şu adreste yayınlanır:
    `https://<KULLANICI_ADIN>.github.io/bugrakoca-website/`
 
-Özel bir domain bağlamak istemediğin için ek bir DNS/CNAME ayarına gerek yok.
+Özel domain: `bugrakoca.com` (Hostinger DNS: apex için 4 A kaydı 185.199.108-111.153, `www` CNAME → `bugrakoca-ux.github.io`; repo kökündeki `CNAME` dosyası silinmemeli).
 
 ## İçerik güncelleme
 
@@ -46,4 +46,4 @@ python -m http.server 8080
 - Bölüm sırası ve HTML yapısı `index.html` içindedir.
 - Renk/tema değişkenleri `assets/css/style.css` dosyasının en üstünde `:root` içinde tanımlıdır.
 
-**Önemli — `style.css`/`main.js` içeriğini her değiştirdiğinde:** GitHub Pages bu dosyaları 10 dakika tarayıcı önbelleğinde tutuyor (`Cache-Control: max-age=600`). Değişikliklerin ziyaretçilere hemen yansıması için `index.html` içindeki `?v=5` sürüm numarasını bir artır (`?v=6`, `?v=7`, ...). Görselleri değiştirirsen dosya adını da değiştir (ya da aynı adla yükleyip birkaç dakika bekle).
+**Önemli — `style.css`/`main.js` içeriğini her değiştirdiğinde:** GitHub Pages bu dosyaları 10 dakika tarayıcı önbelleğinde tutuyor (`Cache-Control: max-age=600`). Değişikliklerin ziyaretçilere hemen yansıması için `index.html` içindeki `?v=6` sürüm numarasını bir artır (`?v=7`, `?v=8`, ...). Görselleri değiştirirsen dosya adını da değiştir (ya da aynı adla yükleyip birkaç dakika bekle).
