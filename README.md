@@ -46,4 +46,4 @@ python -m http.server 8080
 - Bölüm sırası ve HTML yapısı `index.html` içindedir.
 - Renk/tema değişkenleri `assets/css/style.css` dosyasının en üstünde `:root` içinde tanımlıdır.
 
-**Önemli — `style.css`/`main.js` içeriğini her değiştirdiğinde:** GitHub Pages bu dosyaları 10 dakika tarayıcı önbelleğinde tutuyor (`Cache-Control: max-age=600`). Değişikliklerin ziyaretçilere hemen yansıması için `index.html` içindeki `?v=2` sürüm numarasını bir artır (`?v=3`, `?v=4`, ...).
+**Önemli — `style.css`/`main.js` içeriğini her değiştirdiğinde:** GitHub Pages bu dosyaları 10 dakika tarayıcı önbelleğinde tutuyor (`Cache-Control: max-age=600`). Değişikliklerin ziyaretçilere hemen yansıması için `index.html` içindeki `?v=5` sürüm numarasını bir artır (`?v=6`, `?v=7`, ...). Görselleri değiştirirsen dosya adını da değiştir (ya da aynı adla yükleyip birkaç dakika bekle).

@@ -2,11 +2,10 @@
   "use strict";
 
   var translations = {
-    nav_home: { en: "Home", tr: "Anasayfa" },
     nav_about: { en: "About", tr: "Hakkımda" },
     nav_skills: { en: "Skills", tr: "Yetkinlikler" },
     nav_experience: { en: "Experience", tr: "Deneyim" },
-    nav_awards: { en: "Awards", tr: "Ödüller" },
+    nav_projects: { en: "Projects", tr: "Projeler" },
     nav_education: { en: "Education", tr: "Eğitim" },
     nav_contact: { en: "Contact", tr: "İletişim" },
 
@@ -14,13 +13,14 @@
     hero_tagline: { en: "Fintech · Payments · Crypto · AI-Enabled Products", tr: "Fintech · Ödeme Sistemleri · Kripto · Yapay Zeka Destekli Ürünler" },
     hero_location: { en: "📍 Ankara, Turkey — open to remote &amp; relocation", tr: "📍 Ankara, Türkiye — uzaktan çalışma ve yer değişikliğine açık" },
     hero_summary: {
-      en: "10+ years turning ambitious fintech ideas into products people actually use — from a ~4M-user mobile bank to a B2B crypto-to-fiat platform built from zero. Currently exploring the next senior product leadership role in fintech.",
-      tr: "Fintech'te 10+ yıldır iddialı fikirleri gerçek ürünlere dönüştürüyorum — ~4 milyon kullanıcılı bir mobil bankadan sıfırdan kurulan bir B2B kripto-fiat platformuna kadar. Şu anda fintech alanında bir sonraki kıdemli ürün liderliği rolünü arıyorum."
+      en: "10+ years turning ambitious fintech ideas into products people actually use — from a ~4M-user mobile bank to a B2B crypto-to-fiat platform built from zero. Currently building independent AI-enabled products and seeking the next senior product role in fintech.",
+      tr: "Fintech'te 10+ yıldır iddialı fikirleri gerçek ürünlere dönüştürüyorum — ~4 milyon kullanıcılı bir mobil bankadan sıfırdan kurulan bir B2B kripto-fiat platformuna kadar. Şu anda bağımsız, yapay zeka destekli ürünler geliştiriyorum ve fintech alanında bir sonraki kıdemli ürün rolünü arıyorum."
     },
     about_text: {
-      en: "<p>My career has moved between three markets — Turkey, the UK, and the UAE — but the throughline has stayed the same: turning ambiguous, heavily regulated problems into products that ship. I've led the zero-to-one build of a digital wallet that later became a licensed bank app, piloted Turkey's national instant payment system for a ~2M-user base, and stood up a B2B crypto-to-fiat settlement platform under an active international licensing process.</p><p>What I've learned along the way is that the hardest part of fintech product work is rarely the technology — it's holding legal, compliance, risk, and delivery in the same room and still shipping on time. I've done that leading a 45-person delivery organisation, and I'm equally comfortable running a lean, vendor-built platform with a handful of people.</p><p>I've also made a habit of pushing AI past the pilot stage: NLP chatbot flows, an AI-driven merchant-support agent, and AI fraud detection have all reached production under my ownership, not just a slide deck.</p><p>Right now, I'm looking for the next senior product leadership role where fintech, AI, and regulatory complexity meet.</p>",
-      tr: "<p>Kariyerim üç farklı pazar arasında geçti — Türkiye, İngiltere ve BAE — ama ortak nokta hep aynı kaldı: belirsiz ve ağır regülasyona tabi problemleri gerçek ürünlere dönüştürmek. Sonradan lisanslı bir banka uygulamasına dönüşen bir dijital cüzdanın sıfırdan inşasına liderlik ettim, Türkiye'nin ulusal anlık ödeme sistemini ~2 milyon kullanıcılık bir taban için pilot olarak devreye aldım ve aktif bir uluslararası lisanslama süreci altında B2B kripto-fiat takas platformunu ayağa kaldırdım.</p><p>Bu süreçte öğrendiğim şey şu: fintech'te ürün geliştirmenin en zor kısmı çoğu zaman teknoloji değil — hukuk, uyum, risk ve teslimat ekiplerini aynı masada tutup yine de ürünü zamanında çıkarabilmek. Bunu 45 kişilik bir teslimat organizasyonuna liderlik ederek yaptım; birkaç kişilik, tedarikçi tabanlı yalın bir platformu yönetmekte de aynı derecede rahatım.</p><p>Ayrıca yapay zekayı pilot aşamasının ötesine taşımayı alışkanlık haline getirdim: NLP chatbot akışları, yapay zeka destekli satıcı destek ajanı ve yapay zeka ile dolandırıcılık tespiti, benim sahipliğimde yalnızca bir sunum olarak kalmadı, gerçekten production'a ulaştı.</p><p>Şu anda fintech, yapay zeka ve regülasyon karmaşıklığının kesiştiği bir sonraki kıdemli ürün liderliği rolünü arıyorum.</p>"
+      en: "<p>My career has moved between three markets — Turkey, the UK, and the UAE — but the throughline has stayed the same: turning ambiguous, heavily regulated problems into products that ship. I've led the zero-to-one build of a digital wallet that later became a licensed bank app, piloted Turkey's national instant payment system for a ~2M-user base, and stood up a B2B crypto-to-fiat settlement platform under an active international licensing process.</p><p>What I've learned along the way is that the hardest part of fintech product work is rarely the technology — it's holding legal, compliance, risk, and delivery in the same room and still shipping on time. I've done that leading a 45-person delivery organisation, and I'm equally comfortable running a lean, vendor-built platform with a handful of people.</p><p>I've also made a habit of pushing AI past the pilot stage: NLP chatbot flows, an AI-driven merchant-support agent, and AI fraud detection have all reached production under my ownership, not just a slide deck.</p><p>Since mid-2025 I've also been building three independent AI-enabled products on my own — an Etsy print-on-demand store, a Turkish-language history channel with an automated video pipeline, and an AI-assisted trading analysis system in paper-trading mode. Right now, I'm looking for the next senior product leadership role where fintech, AI, and regulatory complexity meet.</p>",
+      tr: "<p>Kariyerim üç farklı pazar arasında geçti — Türkiye, İngiltere ve BAE — ama ortak nokta hep aynı kaldı: belirsiz ve ağır regülasyona tabi problemleri gerçek ürünlere dönüştürmek. Sonradan lisanslı bir banka uygulamasına dönüşen bir dijital cüzdanın sıfırdan inşasına liderlik ettim, Türkiye'nin ulusal anlık ödeme sistemini ~2 milyon kullanıcılık bir taban için pilot olarak devreye aldım ve aktif bir uluslararası lisanslama süreci altında B2B kripto-fiat takas platformunu ayağa kaldırdım.</p><p>Bu süreçte öğrendiğim şey şu: fintech'te ürün geliştirmenin en zor kısmı çoğu zaman teknoloji değil — hukuk, uyum, risk ve teslimat ekiplerini aynı masada tutup yine de ürünü zamanında çıkarabilmek. Bunu 45 kişilik bir teslimat organizasyonuna liderlik ederek yaptım; birkaç kişilik, tedarikçi tabanlı yalın bir platformu yönetmekte de aynı derecede rahatım.</p><p>Ayrıca yapay zekayı pilot aşamasının ötesine taşımayı alışkanlık haline getirdim: NLP chatbot akışları, yapay zeka destekli satıcı destek ajanı ve yapay zeka ile dolandırıcılık tespiti, benim sahipliğimde yalnızca bir sunum olarak kalmadı, gerçekten production'a ulaştı.</p><p>2025 ortasından beri ayrıca üç bağımsız, yapay zeka destekli ürünü tek başıma geliştiriyorum — bir Etsy print-on-demand mağazası, otomatik video hattıyla çalışan Türkçe bir tarih kanalı ve paper-trading modunda çalışan yapay zeka destekli bir işlem analizi sistemi. Şu anda fintech, yapay zeka ve regülasyon karmaşıklığının kesiştiği bir sonraki kıdemli ürün liderliği rolünü arıyorum.</p>"
     },
+    hero_building: { en: "Also building: an Etsy store, a history channel and an AI trading assistant →", tr: "Ayrıca geliştirdiklerim: bir Etsy mağazası, bir tarih kanalı ve bir yapay zeka işlem asistanı →" },
     cta_download: { en: "Download CV (PDF)", tr: "CV İndir (PDF)" },
     cta_email: { en: "Email Me", tr: "Bana Yazın" },
 
@@ -47,9 +47,13 @@
 
     exp_title: { en: "Professional Experience", tr: "Profesyonel Deneyim" },
 
-    exp0_role: { en: "Career Break", tr: "Kariyer Molası" },
+    exp0_role: { en: "Independent Product Builder, AI-Enabled Ventures", tr: "Bağımsız Ürün Geliştirici, Yapay Zeka Destekli Girişimler" },
     exp0_date: { en: "Jun 2025 – Present", tr: "Haz 2025 – Günümüz" },
-    exp0_b1: { en: "Actively seeking a senior product management role in fintech.", tr: "Fintech alanında kıdemli bir ürün yönetimi rolü arayışında." },
+    exp0_intro: { en: "Designed, built, and run three AI-enabled products solo, using AI tools across development, content production, and operations.", tr: "Geliştirme, içerik üretimi ve operasyon süreçlerinde yapay zeka araçlarından yararlanarak üç yapay zeka destekli ürünü tek başına tasarladı, geliştirdi ve yönetiyor." },
+    exp0_b1: { en: "<strong>DriftAndDoe</strong> — launched a live Etsy print-on-demand store end to end.", tr: "<strong>DriftAndDoe</strong> — canlı bir Etsy print-on-demand mağazasını uçtan uca hayata geçirdi." },
+    exp0_b2: { en: "<strong>Shorts Tarih</strong> — built and manage a Turkish-language history channel with an automated faceless-video pipeline.", tr: "<strong>Shorts Tarih</strong> — otomatik, yüzsüz video hattıyla çalışan Türkçe bir tarih kanalı kurdu ve yönetiyor." },
+    exp0_b3: { en: "<strong>AI trading assistant</strong> — in development, currently in paper-trading mode.", tr: "<strong>Yapay zeka işlem asistanı</strong> — geliştirme aşamasında, şu anda paper-trading modunda." },
+    exp0_more: { en: "See the projects below ↓", tr: "Projeleri aşağıda görün ↓" },
 
     exp1_role: { en: "Product Manager, Criex", tr: "Ürün Yöneticisi, Criex" },
     exp1_date: { en: "Oct 2024 – May 2025", tr: "Eki 2024 – May 2025" },
@@ -96,6 +100,33 @@
     exp7_date: { en: "2010 – 2014", tr: "2010 – 2014" },
     exp7_b1: { en: "Project Manager, Haser Software (2013–2014) · Founder, Mergen Consulting (2012–2013) · Material Manager, Netmon (2010–2011).", tr: "Proje Yöneticisi, Haser Software (2013–2014) · Kurucu, Mergen Consulting (2012–2013) · Malzeme Yöneticisi, Netmon (2010–2011)." },
 
+    proj_title: { en: "Independent Projects", tr: "Bağımsız Projeler" },
+    proj_sub: { en: "Since June 2025 I've designed, built and run three AI-enabled products on my own, using AI tools across development, content production and operations.", tr: "Haziran 2025'ten beri geliştirme, içerik üretimi ve operasyon süreçlerinde yapay zeka araçlarından yararlanarak üç yapay zeka destekli ürünü tek başıma tasarladım, geliştirdim ve yönetiyorum." },
+
+    proj1_tag: { en: "E-commerce · Print-on-demand", tr: "E-ticaret · Print-on-demand" },
+    proj1_badge: { en: "Live store", tr: "Aktif mağaza" },
+    proj1_text: { en: "Launched a live Etsy store end to end — product ideation, listing creation, print-on-demand provider selection, and Pinterest and social-media marketing. I also advise early-stage sellers on choosing providers and promoting products on social media.", tr: "Canlı bir Etsy mağazasını uçtan uca hayata geçirdim — ürün fikri, ürün sayfası oluşturma, print-on-demand sağlayıcı seçimi ile Pinterest ve sosyal medya pazarlaması. Ayrıca yeni başlayan satıcılara sağlayıcı seçimi ve ürünleri sosyal medyada tanıtma konusunda danışmanlık veriyorum." },
+    proj1_link: { en: "Visit the shop", tr: "Mağazayı ziyaret et" },
+    proj1_banner_alt: { en: "DriftAndDoe Etsy shop banner: cozy family tees for every season", tr: "DriftAndDoe Etsy mağaza banner'ı: her mevsim için rahat aile tişörtleri" },
+    proj1_logo_alt: { en: "DriftAndDoe shop logo, a stylised deer head", tr: "DriftAndDoe mağaza logosu, stilize bir geyik başı" },
+    proj1_img1_alt: { en: "Navy 'Home for the Holidays' sweatshirt", tr: "Lacivert 'Home for the Holidays' sweatshirt" },
+    proj1_img2_alt: { en: "Tan 'Sleigh All Day' retro Santa sweatshirt", tr: "Bej 'Sleigh All Day' retro Noel Baba sweatshirt" },
+    proj1_img3_alt: { en: "Black 'Seasonally Iconic' Santa t-shirt", tr: "Siyah 'Seasonally Iconic' Noel Baba tişörtü" },
+    proj1_img4_alt: { en: "Matching family 'Most Likely To' Christmas t-shirt set", tr: "Eşleşen aile 'Most Likely To' Noel tişörtü seti" },
+
+    proj2_tag: { en: "Content · Automation", tr: "İçerik · Otomasyon" },
+    proj2_badge: { en: "YouTube &amp; Instagram", tr: "YouTube &amp; Instagram" },
+    proj2_text: { en: "A Turkish-language history channel built on an automated faceless-video pipeline: research, source-grounded scripting, fact-checking, visual QA, and publishing to YouTube and Instagram. I manage the channels and coach creators who are launching faceless channels.", tr: "Otomatik, yüzsüz bir video hattı üzerine kurulu Türkçe bir tarih kanalı: araştırma, kaynağa dayalı senaryo yazımı, doğrulama, görsel kalite kontrolü ve YouTube ile Instagram'da yayın. Kanalları yönetiyorum ve yüzsüz kanal açmak isteyen içerik üreticilerine danışmanlık veriyorum." },
+    proj2_note: { en: "Videos are in Turkish.", tr: "Videolar Türkçedir." },
+    proj2_banner_alt: { en: "Shorts Tarih YouTube channel banner", tr: "Shorts Tarih YouTube kanal banner'ı" },
+    proj2_logo_alt: { en: "Shorts Tarih channel logo", tr: "Shorts Tarih kanal logosu" },
+
+    proj3_tag: { en: "AI · Quantitative analysis", tr: "Yapay zeka · Nicel analiz" },
+    proj3_title: { en: "AI trading assistant", tr: "Yapay zeka işlem asistanı" },
+    proj3_badge: { en: "In development · Paper-trading mode", tr: "Geliştirme aşamasında · Paper-trading modu" },
+    proj3_text: { en: "An AI-assisted quantitative analysis system for selected FX pairs. It derives a strategy from its own analysis and generates simulated trades or short-, medium- and long-term signals. It currently runs in paper-trading mode while I iterate on strategy logic and risk controls.", tr: "Seçili döviz pariteleri için yapay zeka destekli bir nicel analiz sistemi. Kendi analizinden bir strateji türetir; simüle edilmiş işlemler veya kısa, orta ve uzun vadeli sinyaller üretir. Strateji mantığı ve risk kontrolleri üzerinde iyileştirme yaparken şu anda paper-trading modunda çalışıyor." },
+    proj3_img_alt: { en: "Abstract illustration: analysis, strategy and simulation stages connected in a flow", tr: "Soyut illüstrasyon: analiz, strateji ve simülasyon aşamalarının bir akışta bağlanması" },
+
     awards_title: { en: "Awards &amp; Recognition", tr: "Ödüller &amp; Başarılar" },
     award1: { en: "Finalist — EFMA &amp; Accenture Innovation Awards and BAI Global Innovation Awards, for the Kumsal SME ecosystem.", tr: "Finalist — Kumsal KOBİ ekosistemi için EFMA &amp; Accenture Innovation Awards ve BAI Global Innovation Awards." },
 
@@ -122,6 +153,14 @@
       if (entry && entry[lang] !== undefined) {
         el.innerHTML = entry[lang];
       }
+    });
+    [["data-i18n-alt", "alt"], ["data-i18n-aria", "aria-label"]].forEach(function (pair) {
+      document.querySelectorAll("[" + pair[0] + "]").forEach(function (el) {
+        var entry = translations[el.getAttribute(pair[0])];
+        if (entry && entry[lang] !== undefined) {
+          el.setAttribute(pair[1], entry[lang]);
+        }
+      });
     });
     document.querySelectorAll(".lang-btn").forEach(function (btn) {
       btn.classList.toggle("active", btn.getAttribute("data-lang") === lang);
